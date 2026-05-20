@@ -26,7 +26,7 @@ async function startServer() {
     try {
       const { prompt } = req.body;
       const response = await ai.models.generateContent({
-        model: "gemini-3-flash-preview",
+        model: "gemini-3.5-flash",
         contents: prompt,
       });
       res.json({ text: response.text });
