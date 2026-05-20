@@ -1,0 +1,6 @@
+{
+  "name": "ZORRO",
+  "description": "A cross-platform AI agent application featuring a premium Liquid Glass design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
